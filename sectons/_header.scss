@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.container {
+    width: 100%;
+    max-width: 1110px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header__header-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.header__header-box__part {
+    display: flex;
+    align-items: center;
+}
+
+.header__header-box__part__nav__list {
+    display: flex;
+    align-items: center;
+    margin-left: 60px;
+}
+
+.header__header-box__part__nav__list__item {
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    color: #36536B;
+    mix-blend-mode: normal;
+    margin-left: 40px;
+}
+
+.header__header-box__part__nav__list__item:nth-child(1) {
+    margin-left: 0;
+}
+
+.header__header-box__part__nav__list__item:active {
+    color: #36536B;
+    opacity: 0.7;
+}
+
+.header__header-box__btn {
+    background: #BA4270;
+    box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+    border-radius: 24px;
+    padding: 15px 25px;
+    border: none;
+    transition: all 0.4s ease-in-out;
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+
+    letter-spacing: -0.115385px;
+
+    color: #FBFCFE;
+}
+
+.header__header-box__btn:active {
+    background: #DA6D97;
+}
+
+.header__header-box__gamburger {
+    display: none;
+}
+
+// TABLET-RESPONSIV
+
+@media only screen and (max-width:886px) {
+    .container {
+        padding: 0 10px;
+    }
+
+    .header__header-box__gamburger {
+        display: none;
+    }
+}
+
+// TABLET-MOBAIL
+
+@media only screen and (max-width:622px) {
+    .container {
+        padding: 0 5px;
+    }
+
+    .header__header-box__part__nav__list {
+        display: none;
+    }
+
+    .header__header-box__btn {
+        display: none;
+    }
+
+    .header__header-box__gamburger {
+        display: block;
+    }
+
+
+
+}

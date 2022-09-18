@@ -1,0 +1,97 @@
+.site-service {
+  margin: 0;
+  padding: 0;
+}
+
+.service__list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-items: flex-start;
+  gap: 30px;
+  text-align: center;
+}
+
+.service__list__item__item {
+  margin: 0;
+  padding: 0;
+}
+
+.service__list__item__title {
+  margin: 32px 0 16px 0;
+  padding: 0;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 700;
+  font-family: "Public Sans";
+  text-align: center;
+  letter-spacing: -0.138462px;
+  color: #36536B;
+}
+
+.service__list__item__img {
+  transition: all 0.4s ease-in-out;
+}
+
+.service__list__item__img:hover {
+  transform: scale(1.1);
+  overflow: hidden;
+}
+
+.service__list__item__text {
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+  line-height: 25px;
+  font-weight: 400;
+  font-family: "Public Sans";
+  text-align: center;
+  letter-spacing: -0.115385px;
+  color: #6C8294;
+}
+
+// mobaill-RESPONSIV
+@media only screen and (max-width:622px) {
+
+  .service__list {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    align-items: flex-start;
+    gap: 30px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .service__list__item__item {
+    margin: 0;
+    padding: 0;
+  }
+
+  .service__list__item__title {
+    margin: 32px 0 16px 0;
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+  .service__list__item__text {
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    padding: 0 100px;
+  }
+
+}
+
+@media only screen and (max-width:440px) {
+  .service__list__item__text {
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    padding: 0;
+  }
+  
+}

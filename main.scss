@@ -1,0 +1,28 @@
+@import './sectons/header';
+@import './sectons/section1';
+@import './sectons/section2';
+@import './sectons/section3';
+@import './sectons/section4';
+@import './sectons/section5';
+@import './sectons/section6';
+@import './sectons/footer';
+@import './sectons/fonts';
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background: #EDF3F8;
+}
+
+.container {
+    width: 100%;
+    max-width: 1110px;
+    padding: 0 20px;
+    margin: 0 auto;
+}

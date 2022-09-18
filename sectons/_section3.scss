@@ -1,0 +1,145 @@
+.site-code {
+    margin: 0;
+    padding: 150px 0 0 0;
+}
+
+.code {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.code__img--tablet {
+    display: none;
+}
+
+.code__img--mobile {
+    display: none;
+}
+
+
+.code__content--right__title {
+    margin: 0;
+    padding: 0;
+    font-size: 48px;
+    line-height: 56px;
+    font-weight: 400;
+    font-family: "DM Serif Display";
+    letter-spacing: -0.369231px;
+    color: #36536B;
+}
+
+.code__content--right__text {
+    margin: 24px 0 0 0;
+    padding: 0;
+    font-size: 15px;
+    line-height: 28px;
+    font-weight: 400;
+    font-family: "Public Sans";
+    color: #6C8294;
+}
+
+@media only screen and (max-width:886px) {
+    .site-code {
+        margin: 0;
+        padding: 150px 0 0 0;
+    }
+
+    .code {
+        padding: 0;
+        margin: 0;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+    }
+
+    .code__img--home {
+        display: none;
+    }
+
+    .code__img--tablet {
+        display: block;
+    }
+
+    .code__img--mobile {
+        display: none;
+    }
+
+
+    .code__content--right__title {
+        margin: 0;
+        padding: 0;
+        font-size: 48px;
+        line-height: 56px;
+        font-weight: 400;
+        font-family: "DM Serif Display";
+        letter-spacing: -0.369231px;
+        color: #36536B;
+    }
+
+    .code__content--right__text {
+        margin: 24px 0 0 0;
+        padding: 0;
+        font-size: 15px;
+        line-height: 28px;
+        font-weight: 400;
+        font-family: "Public Sans";
+        color: #6C8294;
+        max-width: 573px;
+    }
+
+}
+
+@media only screen and (max-width:622px) {
+    .site-code {
+        margin: 0;
+        padding: 150px 0 0 0;
+    }
+
+    .code {
+
+        flex-direction: column;
+
+        align-items: center;
+        text-align: center;
+    }
+
+    .code__img--home {
+        display: none;
+    }
+
+    .code__img--tablet {
+        display: none;
+    }
+
+    .code__img--mobile {
+        display: block;
+    }
+
+
+    .code__content--right__title {
+        margin: 0;
+        padding: 0;
+        font-size: 36px;
+        line-height: 36px;
+        font-weight: 400;
+        font-family: "DM Serif Display";
+        letter-spacing: -0.369231px;
+        color: #36536B;
+    }
+
+    .code__content--right__text {
+        margin: 24px 0 0 0;
+        padding: 0;
+        font-size: 15px;
+        line-height: 28px;
+        font-weight: 400;
+        font-family: "Public Sans";
+        color: #6C8294;
+        max-width: 328px;
+    }
+
+}

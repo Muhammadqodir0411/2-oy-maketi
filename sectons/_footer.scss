@@ -1,0 +1,140 @@
+/* FOOTER-PART */
+.footer__part {
+    background: #1B262F;
+    margin-top: 100px;
+}
+
+.footer__container-box {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0px;
+}
+
+.footer__part-box {
+    display: flex;
+    align-items: center;
+}
+
+.footer__part-box__icon {
+    display: flex;
+}
+
+.footer__list {
+    display: flex;
+    margin-left: 64px;
+}
+
+.footer__list-item {
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FBFCFE;
+    mix-blend-mode: normal;
+    margin-left: 40px;
+}
+
+.footer__list-item:active {
+    color: #FBFCFE;
+    opacity: 0.7;
+}
+
+.footer__list-item:nth-child(1) {
+    margin-left: 0;
+}
+
+.footer__box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.footer__icon {
+    margin-left: 24px;
+}
+
+.footer__icon:nth-child(1) {
+    margin-left: 0;
+}
+
+// TABLET-RESPONSIV
+
+@media screen and (max-width:886px) {
+    .footer__part {
+        margin-top: 100px;
+    }
+
+    .footer__container-box {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .footer__part-box {
+        display: flex;
+    }
+
+    .footer__list {
+        text-align: center;
+        margin-left: 64px;
+        display: flex;
+    }
+
+    .footer__box {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .icon path:active {
+        fill: #DA6D97;
+    }
+
+}
+
+// MOBAIL-RESPONSIV
+
+@media screen and (max-width:622px) {
+    .footer__part {
+        margin-top: 100px;
+    }
+
+    .footer__container-box {
+        flex-direction: column;
+    }
+
+    .footer__part-box {
+        flex-direction: column;
+    }
+
+    .footer__list {
+        text-align: center;
+        margin-top: 32px;
+        margin-left: 0;
+        flex-direction: column;
+
+        .footer__list-item {
+            margin-top: 24px;
+            text-align: center;
+            margin-left: 0;
+        }
+    }
+
+    .footer__box {
+        margin-top: 65px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .icon path:active {
+        fill: #DA6D97;
+    }
+
+}
+
+.icon path:active {
+    fill: #DA6D97;
+}
